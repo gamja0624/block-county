@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/block-county/static/css/main.e6c13ad2.css",
-    "main.js": "/block-county/static/js/main.184edb05.js",
+    "main.js": "/block-county/static/js/main.1b5441ee.js",
     "static/js/453.419a5d54.chunk.js": "/block-county/static/js/453.419a5d54.chunk.js",
     "static/media/galleryImg05.jpg": "/block-county/static/media/galleryImg05.4c35864fb6ad032a4497.jpg",
     "static/media/galleryImg02.jpg": "/block-county/static/media/galleryImg02.3ffbebdc8a50f35c0bc8.jpg",
@@ -14,11 +14,11 @@
     "static/media/feedimg08.jpg": "/block-county/static/media/feedimg08.d05d048d66a770a50920.jpg",
     "index.html": "/block-county/index.html",
     "main.e6c13ad2.css.map": "/block-county/static/css/main.e6c13ad2.css.map",
-    "main.184edb05.js.map": "/block-county/static/js/main.184edb05.js.map",
+    "main.1b5441ee.js.map": "/block-county/static/js/main.1b5441ee.js.map",
     "453.419a5d54.chunk.js.map": "/block-county/static/js/453.419a5d54.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.184edb05.js"
+    "static/js/main.1b5441ee.js"
   ]
 }
