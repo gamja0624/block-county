@@ -15,9 +15,7 @@ const GalleryPreview = () => {
     <div style={{ width: '700px', margin: '0 auto', backgroundColor: '#474747' }}>
       <Carousel arrows infinite={false}>
         <div>
-          {/* <h3 style={contentStyle}> */}
           <img src={galleryImg05} style={imgStyle} />
-          {/* </h3> */}
         </div>
         <div>
           <img src={galleryImg02} style={imgStyle} />

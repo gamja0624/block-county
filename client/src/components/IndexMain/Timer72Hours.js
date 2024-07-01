@@ -8,7 +8,6 @@ function Timer72Hours() {
   const [isRunning, setIsRunning] = useState(true);
 
 
-
   useEffect(() => {
     let interval = null;
 

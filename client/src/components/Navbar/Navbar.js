@@ -5,6 +5,7 @@ import marketlogo from './Navbar_logo/marketlogo.png'
 import gallerylogo from './Navbar_logo/gallerylogo.png'
 import commulogo from './Navbar_logo/commulogo.png'
 import guidelogo from './Navbar_logo/guidelogo.png'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -12,7 +13,9 @@ const Navbar = () => {
     <div style={{ margin: '0 auto' }}>
       <Flex style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '20px' }} gap="large" wrap >
         <Button style={{ backgroundColor: '#fff', padding: '20px 40px' }}>
-          <img src={homelogo} alt="home" style={{ width: '100%', height: 'auto' }} />
+          <Link to="/">
+            <img src={homelogo} alt="home" style={{ width: '100%', height: 'auto' }} />
+          </Link>
         </Button>
         <Button style={{ borderColor: '#BA1C02', backgroundColor: '#BA1C02', padding: '20px 40px' }}>
           <img src={marketlogo} alt="market" style={{ width: '100%', height: 'auto' }} />

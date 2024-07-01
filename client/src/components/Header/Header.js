@@ -4,8 +4,6 @@ import SearchBox from './SearchBox';
 import UserMenu from './UserMenu';
 import { Flex } from 'antd';
 
-
-//  로고 , 타이틀 , 사용자 메뉴 , 검색창
 const Header = () => {
 
   return (

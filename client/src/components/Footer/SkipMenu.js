@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Menu } from 'antd'
+import { Link } from 'react-router-dom';
 
-// 하단 : SkipMenu 
 
 const menuItems1 = [
   {
@@ -37,7 +37,9 @@ const menuItems2 = [
   },
   {
     key: '2',
-    label: '내 갤러리',
+    label: (
+      <Link to="/UserFeed" >내 갤러리 </Link>
+    ),
   },
   {
     key: '3',
@@ -82,7 +84,6 @@ const menuStyle = {
 const SkipMenu = () => {
   return (
     <>
-      {/* 가로 배치하기 */}
       <div style={{ display: 'flex', alignItems: 'left', padding: '1rem' }}>
 
         <Menu

@@ -10,9 +10,6 @@ import feedimg08 from './img/feedimg08.jpg';
 
 const UserFeedImg = () => {
 
-
-
-  
   return (
     <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '16px' }}>
       <img src={feedimg01} alt="Image 1" style={{ width: '100%', height: 'auto' }} />

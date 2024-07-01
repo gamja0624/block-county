@@ -1,5 +1,6 @@
 import React from 'react';
 import profileImg from './ProfileImg/profileImg.jpg'
+
 const UserProfile = () => {
   return (
     <div >
