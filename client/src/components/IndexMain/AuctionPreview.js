@@ -13,7 +13,7 @@ const AuctionPreview = () => {
           // hoverable
           cover={<img alt="acutionImage" src={auctionImg01} style={{ width: '100%', height: 'auto' }} />}
         >
-          <Meta title="월 E 레고 21303" description='미개봉'  />
+          <Meta title="월 E 레고 21303" description='미개봉' />
         </Card>
         <Timer72Hours style={{ width: '300px' }} />
       </div>

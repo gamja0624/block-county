@@ -38,6 +38,7 @@ function Timer72Hours() {
       {/* <h1>72-Hour Timer</h1> */}
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '5%', backgroundColor: '#9E9E9E' }}>
         <img src={timmerlogo1} style={{ width: '30px', height: '30px' }} />
+        <span style={{ color: '#DB492D' }}>auction</span>
         <div style={{ margin: '10px' }}>
           {hours.toString().padStart(2, '0')}:{minutes.toString().padStart(2, '0')}:{seconds.toString().padStart(2, '0')}
         </div>

@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
-import { Menu } from 'antd'
+import { Button, Menu } from 'antd'
 import { Link } from 'react-router-dom';
+import  sikpMenu from './css/sikpMenu.css'  ;
 
+// < 수정 사항 >
+// 1. 메뉴 map으로 수정하기 
+// 2. 스타일 지정 : 배경색 제거하고, font color 하얀색 
 
 const menuItems1 = [
   {
@@ -75,17 +79,19 @@ const menuItems3 = [
   },
 ]
 
+
 const menuStyle = {
-  backgroundColor: '#303030',
   width: 200,
-  margin: '20px'
+  margin: '20px',
+  backgroundColor: '#252525',
+  color: '#fff'
 }
+
 
 const SkipMenu = () => {
   return (
     <>
       <div style={{ display: 'flex', alignItems: 'left', padding: '1rem' }}>
-
         <Menu
           style={menuStyle}
           items={menuItems1}
@@ -103,6 +109,7 @@ const SkipMenu = () => {
           items={menuItems3}
           mode="inline"
         />
+
       </div>
 
     </>

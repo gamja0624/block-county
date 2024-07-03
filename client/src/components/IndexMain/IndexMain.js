@@ -17,7 +17,7 @@ function IndexMain() {
           <AuctionPreview />
         </div>
       </div>
-      <div style={{ marginTop: '-200px' }}>
+      <div style={{ marginTop: '-100px' }}>
         <Footer />
       </div>
     </div>
