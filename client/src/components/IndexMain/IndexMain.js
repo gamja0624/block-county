@@ -20,7 +20,7 @@ function IndexMain() {
       <div style={{ marginTop: '-100px' }}>
         <Footer />
       </div>
-    </div>
+    </div> 
   );
 }
 

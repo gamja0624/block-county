@@ -4,7 +4,7 @@ import UserFeed from "./UserFeed/UserFeedImg/UserFeed";
 
 function App() {
   return (
-    <div className="App" style={{ backgroundColor: '#252525' }}>
+    <div className="App" style={{ backgroundColor: '#252525', height: '100%', margin:'0' }}>
       {/* Router 설정 */}
       <Router basename={process.env.PUBLIC_URL}>
         <Routes>

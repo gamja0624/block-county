@@ -11,7 +11,7 @@ const SearchBox = () => {
         placeholder="input search text"
         allowClear
         style={{
-          width: '200px',
+          width: '250px',
           margin: '10px'
         }}
       />

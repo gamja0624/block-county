@@ -7,12 +7,12 @@ import galleryImg04 from './galleryImg/galleryImg04.jpg';
 import galleryImg05 from './galleryImg/galleryImg05.jpg';
 
 const imgStyle = {
-  margin: 'auto',
+  margin: '0 auto',
 }
 
 const GalleryPreview = () => {
   return (
-    <div style={{ width: '700px', margin: '0 auto', backgroundColor: '#474747' }}>
+    <div style={{ width: '700px', margin: '0 auto', backgroundColor: '#fff' }}>
       <Carousel arrows infinite={false}>
         <div>
           <img src={galleryImg05} style={imgStyle} />

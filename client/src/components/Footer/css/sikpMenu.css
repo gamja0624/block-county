@@ -2,9 +2,16 @@
   color: #fff;
 }
 
-.ant-menu-title-content :active {
+.ant-menu-title-content :hover {
   color: #fff;
-  background-color:dimgrey;
+  background-color: dimgrey;
+}
 
+.ant-menu-item-selected {
+  background-color: #252525 !important;
+}
 
+.ant-menu-item-group-title {
+  color: #fff !important;
+  font-weight: bolder;
 }

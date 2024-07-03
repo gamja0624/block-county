@@ -36,7 +36,7 @@ function Timer72Hours() {
   return (
     <div >
       {/* <h1>72-Hour Timer</h1> */}
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '5%', backgroundColor: '#9E9E9E' }}>
+      <div style={{ width: '250px', display: 'flex', justifyContent: 'center', alignItems: 'center', borderRadius: '5%', backgroundColor: '#9E9E9E' }}>
         <img src={timmerlogo1} style={{ width: '30px', height: '30px' }} />
         <span style={{ color: '#DB492D' }}>auction</span>
         <div style={{ margin: '10px' }}>

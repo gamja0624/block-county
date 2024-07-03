@@ -1,16 +1,19 @@
 import React, { useState } from 'react';
-import { Button, Menu } from 'antd'
+import { Menu } from 'antd'
 import { Link } from 'react-router-dom';
-import  sikpMenu from './css/sikpMenu.css'  ;
+import sikpMenu from './css/sikpMenu.css';
 
 // < 수정 사항 >
 // 1. 메뉴 map으로 수정하기 
 // 2. 스타일 지정 : 배경색 제거하고, font color 하얀색 
 
+
+
 const menuItems1 = [
   {
     key: 'sub1',
     label: 'Menu 바로가기',
+    type: 'group',
   },
   {
     key: '1',
@@ -30,10 +33,13 @@ const menuItems1 = [
   },
 ]
 
+
+
 const menuItems2 = [
   {
     key: 'sub1',
     label: '내 정보 바로가기',
+    type: 'group',
   },
   {
     key: '1',
@@ -60,6 +66,7 @@ const menuItems3 = [
   {
     key: 'sub1',
     label: '홈페이지 가이드',
+    type: 'group',
   },
   {
     key: '1',

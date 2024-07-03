@@ -7,13 +7,13 @@ import { Flex } from 'antd';
 const Header = () => {
 
   return (
-    <div style={{ margin: '0 auto' }}>
+    <div style={{ margin: '-30px auto 0 auto' }}>
       <Flex style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '1rem', width: '100%', margin: '30px auto', }} wrap>
         <img
           style={{ maxWidth: '100%', display: 'inline', margin: '20px', }}
           src={logo}
         />
-        <h1 style={{ textAlign: 'center', color: '#fffdfd', backgroundColor: '#000000', padding: '20px 80px', margin: '0 auto', width: 'auto' }}>
+        <h1 style={{ textAlign: 'center', color: '#fffdfd', backgroundColor: '#000000', padding: '20px 80px', margin: '0 auto', width: '400px' }}>
           BLOCK COUNTY
         </h1>
         <div>
