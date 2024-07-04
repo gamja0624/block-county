@@ -15,7 +15,7 @@
 
 ### OS 
 
-▪️ window11
+▪️ windows 11
 
 ### TOOL 
 
