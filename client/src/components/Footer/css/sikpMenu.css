@@ -13,5 +13,29 @@
 
 .ant-menu-item-group-title {
   color: #fff !important;
-  font-weight: bolder;
+}
+
+.slick-arrow {
+  color: #000 !important;
+}
+
+.slick-next::after,
+.slick-prev::after {
+  position: absolute;
+  top: 2.3422913719943423px;
+  inset-inline-start: -6px !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-inline-width: 5px 0 !important;
+  border-block-width: 5px 0 !important;
+}
+
+.slick-prev::after {
+  position: absolute;
+  top: 2.3422913719943423px;
+  inset-inline-start: 5px !important;
+  width: 20px !important;
+  height: 20px !important;
+  border-inline-width: 5px 0 !important;
+  border-block-width: 5px 0 !important;
 }
