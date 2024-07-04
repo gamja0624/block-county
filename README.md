@@ -56,7 +56,7 @@
 
 ▪️ 타이틀 아래 Navigation-Bar와 하단 Skip-Memu를 배치하여 사이트의 서비스 전체를 확인할 수 있다.
 
-▪️ 중앙 컨텐츠는 사이트의 핵심 서비스인 갤러리와 경매의 preview가 보여진다
+▪️ 중앙 컨텐츠는 사이트의 핵심 서비스인 갤러리와 경매의 preview가 보여진다.
 
 ### ◾ UserGallery
 
@@ -64,6 +64,6 @@
 
 ![UserGalleryPage](https://github.com/gamja0624/block-county/assets/173662178/8d829060-4313-4d4e-92b4-18f4b8267a20)
 
-▪️ 이용자의 프로필과 Feed 개시물로 구성되었다
+▪️ 이용자의 프로필과 Feed 개시물로 구성되었다.
 
 ▪️ 다른 페이지에 대한 접근성을 위해 Navigation Bar와 SkipMenu가 있다.
