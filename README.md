@@ -66,4 +66,4 @@
 
 ▪️ 이용자의 프로필과 Feed 개시물로 구성되었다.
 
-▪️ 다른 페이지에 대한 접근성을 위해 Navigation Bar와 SkipMenu가 있다.
+▪️ 다른 페이지에 접근을 위해 Navigation Bar와 SkipMenu가 있다.
