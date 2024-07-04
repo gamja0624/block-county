@@ -13,6 +13,7 @@ const policyItems = ['쿠키설정', '개인정보 처리 방침', '사업자 �
 const Policy = () => {
   return (
     <div>
+      <div style={{ float: 'right', color: '#fff', padding: '12.5px 50px 50px 0' }}> &copy; BLOCK COUNTY</div>
       <Menu
         mode="horizontal"
         items={policyItems}
@@ -23,7 +24,7 @@ const Policy = () => {
           minWidth: 0,
         }}
       />
-    </div>
+    </div >
   )
 }
 

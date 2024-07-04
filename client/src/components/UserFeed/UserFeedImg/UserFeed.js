@@ -8,7 +8,7 @@ import UserProfile from '../UserProfile/UserProfile'
 const UserFeed = () => {
 
   return (
-    <div className="App" style={{ backgroundColor: '#252525', width: '1200px', margin: '0 auto' }}>
+    <div className="App" style={{ backgroundColor: '#252525', width: '1200px', height: '100%', margin: '0 auto' }}>
       <Navbar />
 
       <div >
