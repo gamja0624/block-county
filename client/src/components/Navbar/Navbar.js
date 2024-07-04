@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Flex } from 'antd';
-import homelogo1 from './Navbar_logo/homelogo1.png'
+import { HomeOutlined } from '@ant-design/icons';
 import marketlogo from './Navbar_logo/marketlogo.png'
 import gallerylogo from './Navbar_logo/gallerylogo.png'
 import commulogo from './Navbar_logo/commulogo.png'
@@ -13,11 +13,11 @@ const Navbar = () => {
     // 로고 이미지 50px
     <div style={{ margin: '0 auto' }}>
       <Flex style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '20px' }} gap="large" wrap >
-        <Button style={{ borderColor: '#252525', backgroundColor: '#252525', padding: '20px', width: '' }}>
+        <button style={{ borderColor: '#252525', backgroundColor: '#252525', padding: '20px', width: '100px', height: '20px ', border: 'none' }}>
           <Link to="/">
-            <img src={homelogo1} alt="home" style={{ width: '80px', height: 'auto' }} />
+            <HomeOutlined style={{ width: '100px', height: 'auto', padding: '0', margin: '0 auto', position:'relative', top:'-22px' }} />
           </Link>
-        </Button>
+        </button>
         <Button style={{ borderColor: '#BA1C02', backgroundColor: '#BA1C02', padding: '20px 55px 20px 40px' }}>
           <img src={marketlogo} alt="market" style={{ width: '50px', height: 'auto' }} />
           MARKET

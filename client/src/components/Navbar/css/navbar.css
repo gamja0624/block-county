@@ -4,3 +4,10 @@
   border-radius: 30%;
   margin: 25px;
 }
+
+svg[data-icon="home"] {
+  width: 55px !important;
+  height: 45px !important;
+  color: #fff;
+}
+
