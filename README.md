@@ -52,7 +52,8 @@
 ## ✔️ 화면 설명
 
 ###  ◾ IndexMain
-![IndexMainPage](https://github.com/gamja0624/block-county/assets/173662178/4d2c6246-4e82-4fa7-b575-23a2846e29ad)
+
+![IndexMainPage](https://github.com/gamja0624/block-county/assets/173662178/ff146683-30b3-4f63-878f-92aba02d22f3)
 
 
 ▪️ 웹페이지 최상단에 사이트 타이틀 및 로고와 이용자 메뉴로 구성하였다.
@@ -65,7 +66,7 @@
 
 #### IndexMain ➡️ 내 갤러리
 
-![UserFeedPage](https://github.com/gamja0624/block-county/assets/173662178/20ea8367-db72-49b5-8082-73a379f0ee5d)
+![UserFeedPage](https://github.com/gamja0624/block-county/assets/173662178/d8487cd5-18ec-4e6b-9577-eaac86a5755a)
 
 ▪️ 이용자의 프로필과 Feed 개시물로 구성되었다.
 
