@@ -9,8 +9,9 @@ const UserFeed = () => {
 
   return (
     <div className="App" style={{ backgroundColor: '#252525', width: '1200px', height: '100%', margin: '0 auto' }}>
-      <Navbar />
-
+      <div style={{ marginTop: '30px' }}>
+        <Navbar />
+      </div>
       <div >
         <div style={{ position: 'relative', left: '-450px', top: '50px' }}>
           <UserProfile />
@@ -18,7 +19,6 @@ const UserFeed = () => {
         <div style={{ position: 'relative', right: '-100px', top: '-300px', width: '800px', margin: '0 auto' }}>
           <UserFeedImg />
         </div>
-
       </div>
       <div style={{ marginTop: '-250px' }}>
         <Footer />
